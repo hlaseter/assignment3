@@ -1,6 +1,8 @@
 # Assignment3
 
 ## Project Description
-<!-- you can include known bugs, design decisions, external references used... -->
+
+
+Known Bugs: Vue router is not functional. Instead the navbar provides href's to the madlib and tic tac toe games.
 
 ### Component Structure
