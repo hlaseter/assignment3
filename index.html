@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+  </head>
+  <body>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+			<body>
+				<div class = "header">
+					<div id="skiplink"><a href="#content-center">Skip to Main Content</a></div>
+						<div class = "head-left">
+								<div id="routerrouter">
+								<ul id = "navbar-list">
+
+										<li>  <router-link to="/ttt/tic-tac-toe.html">Go to MLibs</router-link></li>
+											
+										<li><router-link to="/madlib/index.html">Go to TTT</router-link></li>
+					
+									</ul>
+									<router-view></router-view>
+									</div>
+						</div>
+						<div class = "head-center"><base-checkbox></base-checkbox>
+						
+							
+								
+								
+								<a href=#skiplink class = "skip">Skip to feed</a>
+						</div>
+						<div class = "head-right">
+							<div class = "empty-head-right"></div>
+								<div class = "button-head-right">
+									<base-input @searched="filt"></base-input>
+								</div>
+						</div>
+					 
+				</div>
+				<div class = "content-wrapper">
+					<div class = "content-left">
+						<div class = "cover-pic"></div>
+				 
+						<img src="images/penguin-banner.png" alt="Cover Photo" id = "cphoto">
+						<div class = "profile-pic"></div>
+					
+						<img src="images/penguin.png" alt="Profile Picture" id = "pphoto">
+						<div class = "profile-info">
+							<div class = "name">Noodlechef</div>
+							<div class = "handle">@noodle_chef01</div>
+							<div class = "profile-stats">
+								<div class = "stat-label">Tweets<div class = "stat-value">1279</div></div>
+								<div class = "stat-label">Following<div class = "stat-value">155</div></div>
+								<div class = "stat-label">Followers<div class = "stat-value">109000</div></div>
+							</div>
+						</div>
+					</div>
+		
+    
+      <div class = "content-center" id = "tweet-container">
+			<div id = 'user-tweet'>
+
+					
+				<input class="form-control" type="text" placeholder="Compose Tweet" id = "new-tweet" aria-label="Search"/>
+					<input type="submit" id = 'tweetbutton' value="Submit">
+			</div>
+
+
+
+
+
+		
+
+
+		</div>
+		<div class = "content-right">
+        <div class = "who-to-follow"> Who to Follow</div>
+
+        <div class = "suggested">
+            <div class = "minipic">
+                <img src="images/penguin.png" alt="Profile Picture" id = "pic">
+            </div>
+            <div class = "stack">
+            <div class = "suggestioninfo">
+              <div class = "suggestedname">cs132 TA</div>
+              <div class = "suggestedhandle">@cs132ta</div>
+            </div>
+            <div class = "followbutton"><button class="follow">follow</button></div>
+             </div>
+            </div>
+
+           <div class = "suggested">
+              <div class = "minipic">
+                  <img src="images/penguin.png" alt="Profile Picture" id = "pic">
+              </div>
+              <div class = "stack">
+              <div class = "suggestioninfo">
+                <div class = "suggestedname">cs132 TA</div>
+                <div class = "suggestedhandle">@cs132ta</div>
+              </div>
+              <div class = "followbutton"><button class="follow">follow</button></div>
+               </div>
+              </div>
+	</div>
+     
+
+	  <script type="text/javascript" src="index.js"></script>
+   <!-- TODO: Create HTML elements for Twitter mockup inside body -->
+  </body>
+</html>

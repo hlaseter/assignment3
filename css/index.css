@@ -1,0 +1,483 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    background-color: #e6ecf0;
+  
+  
+  }
+  
+  .skip{
+  display: none;
+  
+  
+  }
+  
+  ul#navbar-list {
+  
+      list-style: none;
+    align-content: center;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+      }
+      ul#navbar-list li {
+      display: inline;
+      padding-left: 20px;
+    }
+    ul#navbar-list li:hover {
+      color: skyblue;
+      text-decoration: underline;
+      font-weight: bold;
+      }
+  #tlogo{
+  height: 35px;
+  width: 35px;
+  
+  }
+  
+  .header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    z-index: 100;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  
+  .head-center{
+  
+  
+  }
+  
+  .head-left{
+  display: flex;
+  flex: 1;
+  
+  }
+  
+  .head-right{
+    display: flex;
+  
+    flex: 1;
+    justify-content: center;
+  
+    }
+    .empty-head-right{
+  
+      display: flex;
+      flex: 1;
+    }
+    .button-head-right{
+  
+      display: flex;
+      flex: 1;
+    }
+  .searchbutton{
+    background-color: #4ab3f4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+   
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 8px 6px;
+    border-radius: 20px;
+  
+  }
+  
+  
+  
+  /* TODO: Create CSS for your Twitter Mockup */
+  .content-wrapper{
+    display: flex;
+    justify-content: left;
+    max-width: 1190px;
+    margin: 56px auto;
+    background-color: transparent;
+  
+  
+  }
+  .content-left{
+    margin-left: 50px;
+    width: 290px;
+    height: 250px;
+    background-color: white;
+  
+  
+  }
+  .content-right{
+  display: flex;
+  
+  flex-direction: column;
+    width: 290px;
+    height: 290px;
+    background-color: white;
+  
+  }
+  #skiplink
+{
+position:absolute;
+left:-1000px;
+top:auto;
+width:1px;
+height:1px;
+
+}
+  
+  .content-center{
+    display: flex;
+    flex-direction: column;
+    align-content: top;
+    width: 580px;
+    min-height: 590px;
+    background-color: #4ab3f4;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #cphoto{
+  background-color: black;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 140px;
+  width: 290px;
+  
+  }
+  #pphoto{
+    background-color: gray;
+    position: relative;
+    left: 15px;
+    top: -35px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #fff;
+    }
+  .name{
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  top: -12px;
+  right:30px;
+  }
+  .handle{
+  
+    margin: auto;
+    font-size: 14px;
+  
+  position: relative;
+  top: -12px;
+  right: 27px;
+  color: gray;
+  
+  }
+    .profile-info{
+      position: relative;
+      top: -55px;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-content: top;
+      
+    }
+  
+    .profile-stats{
+      margin-left: 20px;
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      justify-content: space-evenly;
+      
+  
+    }
+    .stat-label{
+  
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      color: gray;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .stat-value{
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      color: #4ab3f4;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  
+  
+    .twitterfeed{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  
+  background-color:  white;
+  width: 580px;
+  min-height: 51px;
+  z-index : 1;
+  border-bottom: 2px solid;
+  border-color: #e6ecf0;
+  
+    }
+  
+    #ppic{
+      display: flex;
+      margin-top: -15px;
+      flex: 1;
+      background-color: gray;
+  
+      width: 48px;
+      height: 48px;
+      position: relative; 
+      top: 25px;
+  
+      margin-left: 8px;
+      z-index: 3;
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px #fff;
+  
+  
+    }
+  
+    .tweet{
+      
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  
+  
+    }
+  
+    .tweet-info{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 15px;
+  
+    }
+  
+    .poster-name{
+  
+      
+      font-size: 14px;
+      font-weight: bold;
+      margin-right: 10px;
+  
+  
+    }
+  
+    .poster-handle{
+  
+     
+      font-size: 13px;
+    
+  
+  
+    color: gray;
+    margin-top: 3px;
+    margin-right: 12px;
+    }
+  
+    .post-date{
+  
+     
+      font-size: 13px;
+    
+  
+    color: gray;
+    margin-top: 3px;
+    margin-right: 12px;
+    }
+  
+    .tweet-content{
+      display: flex;
+      flex: 1;
+      font-size: 14px;
+      align-content: top;
+      margin-left: 15px;
+      margin-top: -2px;
+  
+  
+    }
+  
+    @media only screen and (max-width: 1200px) {
+      .content-right {
+          display: none;
+      }
+  }
+  
+    .who-to-follow{
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      height: 50px;
+      margin-top: 5px;
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 15px;
+  
+  
+  
+  
+    }
+   .suggested{
+  
+  display: flex;
+  flex: 1;
+  height: 200px;
+  justify-content: left;
+  
+  z-index : 1;
+  border-bottom: 2px solid;
+  border-color: #e6ecf0;
+  
+   }
+  
+   .minipic{
+    display: flex;
+    align-items: top;
+  
+  
+  
+  
+  
+  
+   }
+  
+  .stack{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+   .suggestioninfo{
+  
+  
+    display: flex;
+    flex: 1;
+    align-items: top;
+    flex-direction: row;
+    justify-content: left;
+    max-height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+   }
+   .suggestedname{
+  
+  display: flex;
+  flex: 1;
+  font-weight: bold;
+  
+   }
+  
+   .suggestedhandle{
+  
+    display: flex;
+    flex: 1;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-right: 8px;
+  color: gray;
+  
+   }
+   #pic{
+    display: flex;
+  
+    flex: 1;
+    background-color: gray;
+  
+    width: 55px;
+    height: 60px;
+  
+  
+    margin-left: 8px;
+    margin-top: 15px;
+  
+    z-index: 3;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #fff;
+  
+  
+  }
+  .followbutton{
+  
+  
+  
+    align-items: top;
+    
+  }
+  .follow{
+  
+  
+    background-color: white;
+    border: none;
+    color: #4ab3f4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid  #4ab3f4;
+    padding: 5px 9px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+  
+  }
+
+  .tweetContent{
+
+    display: flex;
+    flex: 1;
+    z-index: 100;
+    margin-top: 25px;
+    background-color: pink;
+
+
+  }
+
+
+#user-tweet{
+display: flex;
+flex-direction: row;
+min-height: 50px;
+
+
+}
+  #tweetbutton{
+    box-sizing: content-box;
+    height: 50px;
+    max-width: 50px;
+
+
+
+  }
+
+  #new-tweet{
+    flex: 1;
+  
+
+  }
+
+  #my-tweet{
+background-color: pink;
+
+  }
